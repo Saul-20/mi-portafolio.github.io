@@ -1,0 +1,92 @@
+.items li a{
+    font-size: 1.8rem;
+}
+
+.header-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.info-header h1{
+    font-size: 2.6rem;
+}
+
+.info-header p{
+    font-size: 2rem;
+}
+
+.perfil .article-perfil{
+    width: 1024px;
+}
+
+.perfil .info-perfil .container-info h2{
+    font-size: 3rem;
+}
+
+.reseñas .container-resenas{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.reseñas h2{
+    font-size: 3rem;
+}
+
+.container-reseñas .card{
+    padding: 24px;
+}
+
+.experiencia .container-experiencia{
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.container-expe{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.experiencia .container-expe{
+    gap: 24px;
+}
+
+.container-experiencia .job-one .expe-info{
+    text-align: left;
+}
+
+.container-experiencia .job-two .expe-info{
+    text-align: right;
+}
+
+.container-experiencia .job-tree .expe-info{
+    text-align: left;
+}
+
+.container-experiencia .job-four .expe-info{
+    text-align: right;
+}
+
+.experiencia .container-experiencia .job-two{
+    grid-template-areas:
+    "img text";
+}
+
+.job-two .expe-img{
+    grid-area: img;
+}
+
+.experiencia .container-experiencia .job-four{
+    grid-template-areas:
+    "img text";
+}
+
+.job-four .expe-img{
+    grid-area: img;
+}
+
+.container-escribeme{
+    width: 1024px;
+    margin: 0 auto;
+}

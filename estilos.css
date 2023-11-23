@@ -1,0 +1,384 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* navbar ------------------------------------------------------------------------------------------------------------------ */
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 12px;
+    width: 100%;
+    border-bottom: 1px solid gray;
+}
+
+.logo{
+    width: 80px;
+    height: 30px;
+}
+
+.navbar .items{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    align-items: center;
+}
+
+.items li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: black;
+}
+
+.items li a:hover{
+    color: #5ae4a8;
+}
+
+/* header -------------------------------------------------------------------------------------------------------- */
+
+.header-main{
+    background-color: white;
+    padding: 30px 0;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.header-main .img-header{
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    max-width: 350px;
+}
+
+.header-main .hero-header{
+    width: 100%;
+    background-color: bisque;
+    border-radius: 25px;
+}
+
+.header-main .info-header{
+    text-align: center;
+}
+
+.info-header h1{
+    color: black;
+    font-size: 2rem;
+    margin-bottom: 12px;
+}
+
+.info-header p{
+    color: #757575;
+    font-size: 1.6rem;
+    line-height: 22px;
+    margin-bottom: 24px;
+}
+
+.info-header a{
+    display: inline-block;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+    padding: 16px 20px;
+    border-radius: 12px;
+    background-color: black;
+    text-decoration: none;
+}
+
+.info-header a:hover{
+    background-color: #5ae4a8;
+    color: #2f2e2e;
+}
+
+/* main --------------------------------------------------------------------------------------------------------------------------- */
+
+.container-main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+main .perfil{
+    padding: 28px 0;
+    background-color: #2f2e2e;
+}
+
+.perfil .article-perfil{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #3e3e3e;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+.perfil .container-foto{
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.container-foto .foto{
+    width: 100%;
+    border-radius: 20px;
+}
+
+.info-perfil .container-info{
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.container-info h2{
+    color: white;
+    font-size: 2.2rem;
+    font-weight: bold;
+    padding: 20px 0;
+}
+
+.container-info p{
+    color: #bababa;
+    font-size: 1.4rem;
+    line-height: 22px;
+}
+
+.info-perfil .container-habil{
+    text-align: center;
+}
+
+.container-habil h3{
+    color: white;
+    font-size: 1.6rem;
+    margin-bottom: 16px;
+}
+
+.icon-habil{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style: none;
+}
+
+.icon-habil li{
+    margin-bottom: 8px;
+    color: black;
+}
+
+/* que me hace diferente ---------------------------------------------------------------------------------------------------------------- */
+
+.reseñas{
+    background-color: #201e1c;
+    padding: 24px 0;
+}
+
+.reseñas h2{
+    color: white;
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.reseñas .container-reseñas{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container-reseñas .card{
+    width: 100%;
+    background-color: #282623;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.card h4{
+    color: white;
+    font-size: 1.6rem;
+    margin: 8px 0;
+}
+
+.card p{
+    color: #bababa;
+    font-size: 1.3rem;
+    line-height: 20px;
+}
+
+/* proyectos ----------------------------------------------------------------------------------------------------------------- */
+
+.container-experiencia{
+    display: grid;
+    gap: 80px;
+    padding: 50px 0;
+    /* background-color: #2f2e2e; */
+}
+
+.experiencia .title-proyects{
+    text-align: center;
+    font-size: 3rem;
+    padding-top: 50px;
+}
+
+.experiencia .container-expe{
+    /* background-color: #3e3e3e; */
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    /* border: 1px solid black; */
+    border-radius: 12px;
+}
+
+.container-expe .expe-info{
+    text-align: center;
+}
+
+.expe-info a{
+    text-decoration: none;
+}
+
+.expe-info h2{
+    color: Black;
+    margin-bottom: 12px;
+    font-size: 3rem;
+}
+
+.expe-info p{
+    color: #757575;
+    font-size: 1.4rem;
+    line-height: 22px;
+    margin-bottom: 12px;
+}
+
+.container-expe .expe-img{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.container-expe .img-expe{
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid #d9d9d9;
+}
+
+.container-expe .container-btn--pages{
+    background-color: #282623;
+    padding: 12px;
+    margin: 8px 0;
+    text-align: center;
+    border-radius: 12px;
+}
+
+.container-expe .container-btn--pages a{
+    color: white;
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: bold;
+}   
+
+.container-expe .container-btn--pages:hover{
+    background-color: #5ae4a8;
+}
+
+
+/* contacto --------------------------------------------------------------------------------------------------------- */
+
+main .container-contacto{
+    background-color: #201e1c;
+    padding: 24px 0;
+}
+
+/* .container-escribeme{
+    width: 900px;
+    margin: 0 auto;
+} */
+
+.container-contacto .title-contacto{
+    display: none;
+}
+
+.contactarme{
+    margin: 24px;
+}
+
+.contactarme h2{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.contactarme p{
+    font-size: 1.6rem;
+    color: white;
+    margin-bottom: 2px;
+    margin-top: 16px;
+}
+
+.contactarme span{
+    color: whitesmoke;
+    font-size: 1.4rem;
+    color: #bababa;
+}
+
+.contactarme .redes-sociales{
+    display: flex;
+    gap: 12px;
+    list-style: none;
+    color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #282623;
+    width: 90%;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 12px;
+}
+
+form label{
+    color: white;
+    font-size: 1.4rem;
+    margin-bottom: 8px;
+}
+
+form input{
+    width: 100%;
+    height: 30px;
+    padding-left: 8px;
+    margin-top: 4px;
+    outline: none;
+    border-radius: 4px;
+}
+
+form textarea{
+    padding: 8px;
+    outline: none;
+    border-radius: 4px;
+}
+
+form .button{
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+form .button:hover{
+    background-color: #5ae4a8;
+    color: #2f2e2e;
+}
